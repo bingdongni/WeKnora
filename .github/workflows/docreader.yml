@@ -2,7 +2,7 @@ name: DocReader
 
 on:
   push:
-    branches: [main]
+    branches: [main, ci/markdown-image-titles]
     paths:
       - "docreader/**"
       - "go.mod"
